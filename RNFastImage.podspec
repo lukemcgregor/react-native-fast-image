@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
     install_modules_dependencies(s)
   else
-    s.platforms     = { :ios => "8.0", :tvos => "9.0" }
+    s.platforms     = { ios: '15.1', tvos: '15.1' }
     s.source_files  = "ios/**/*.{h,mm}"
     s.dependency 'React-Core'
   end
